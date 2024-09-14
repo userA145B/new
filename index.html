@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Página para Móvil</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS -->
+</head>
+<body>
+    <!-- Sección inicial con los dos botones -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <p>¿Deseas ver el contenido?</p>
+            <button id="verContenido">Ver contenido</button>
+            <button id="noVerContenido">No ver contenido</button>
+        </div>
+    </div>
+
+    <!-- Imagen que se mostrará al hacer clic en "Ver contenido" -->
+    <div id="contenido" class="contenido">
+        <img id="imagen" src="01/no abrir.jpg" alt="Imagen a pantalla completa" style="display: none;"> <!-- Imagen oculta inicialmente -->
+    </div>
+
+    <!-- Audio que se reproducirá al hacer clic en "Ver contenido" -->
+    <audio id="audio" src="01/no abrir 2.mp3"></audio>
+
+    <script src="script.js"></script> <!-- Enlace al archivo JS -->
+</body>
+</html>
